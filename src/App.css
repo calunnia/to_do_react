@@ -1,3 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+/*   border: 1px dashed red; */
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  background: rgb(212,214,170);
+  background: linear-gradient(121deg, rgba(212,214,170,0.7399334733893557) 0%, rgba(230,165,79,0.8631827731092436) 18%, rgba(65,17,12,1) 100%);
+}
+
 .App {
+  height: 100vh;
+  width: 100vw;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+h1{
+  margin: 10px;
+  color: beige;
+}
+
+
+.first_row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+input{
+  padding: 10px;
+  
+}
+
+i{
+  color:red
+}
+
+
+select{
+  padding: 10px;
+  margin: 10px;
+}
+button{
+  padding: 10px;
+}
+
+li{
+  text-decoration: none;
+  padding: 10px;
+}
+
+.todo-list{
+  list-style: none;
+}
+.todo-item{
+  text-decoration: none;  
+}
+.todo{
+  display: flex;
+  justify-content: center;
+}
+
+.completed{
+  text-decoration: line-through;
+  color:gray;
+  background-color: rgb(229, 238, 144);
+ opacity: 0.99;
 }
